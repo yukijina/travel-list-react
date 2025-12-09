@@ -3,8 +3,9 @@ import '../index.css';
 
 export default function PackingList() {
   return (
-    <div>
+    <ul className='list'>
       <p>PackingList</p>
-    </div>
+      <li></li>
+    </ul>
   );
 }

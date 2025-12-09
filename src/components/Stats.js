@@ -3,8 +3,8 @@ import '../index.css';
 
 export default function Stats() {
   return (
-    <div>
-      <p>stats</p>
-    </div>
+    <footer className='stats'>
+      <em>💼 You have X items on your list, and you already packed X (X%)</em>
+    </footer>
   );
 }
