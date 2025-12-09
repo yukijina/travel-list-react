@@ -25,7 +25,7 @@ function App() {
       <Logo />
       <Form />
       <PackingList />
-      <Stat />
+      <Stats />
     </div>
   );
 }
