@@ -1,9 +1,10 @@
 import React from 'react';
+import '../index.css';
 
 export default function Logo() {
   return (
     <div>
-      <p>Logo</p>
+      <h1>🏝️ Far Away 🧳</h1>
     </div>
   );
 }
