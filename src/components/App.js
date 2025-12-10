@@ -17,6 +17,12 @@ const initialItems = [
     quantity: 12,
     packed: false,
   },
+  {
+    id: 2,
+    description: 'T-shirts',
+    quantity: 5,
+    packed: true,
+  },
 ];
 
 function App() {
@@ -24,7 +30,7 @@ function App() {
     <div className='App'>
       <Logo />
       <Form />
-      <PackingList />
+      <PackingList items={initialItems} />
       <Stats />
     </div>
   );
