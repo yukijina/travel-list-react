@@ -1,11 +1,15 @@
 import React from 'react';
 import '../index.css';
+import Item from './Item';
 
-export default function PackingList() {
+export default function PackingList({ items }) {
   return (
-    <ul className='list'>
-      <p>PackingList</p>
-      <li></li>
-    </ul>
+    <div className='list'>
+      <ul>
+        {items.map((item) => (
+          <Item item={item} />
+        ))}
+      </ul>
+    </div>
   );
 }
