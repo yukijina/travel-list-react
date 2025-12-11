@@ -27,7 +27,7 @@ const initialItems = [
 
 function App() {
   return (
-    <div className='App'>
+    <div className='app'>
       <Logo />
       <Form />
       <PackingList items={initialItems} />
