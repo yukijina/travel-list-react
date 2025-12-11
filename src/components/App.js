@@ -18,7 +18,7 @@ const initialItems = [
     packed: false,
   },
   {
-    id: 2,
+    id: 3,
     description: 'T-shirts',
     quantity: 5,
     packed: true,
