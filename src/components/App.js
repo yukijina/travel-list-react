@@ -1,3 +1,5 @@
+import React from 'react';
+import { useState } from 'react';
 import '../index.css';
 import Logo from './Logo';
 import Form from './Form';
@@ -26,11 +28,17 @@ const initialItems = [
 ];
 
 function App() {
+  const [items, setItems] = useState([]);
+
+  function handleAddItems(item) {
+    setItems((items) => [...items, item]);
+  }
+
   return (
     <div className='app'>
       <Logo />
-      <Form />
-      <PackingList items={initialItems} />
+      <Form onAddItems={handleAddItems} />
+      <PackingList items={items} />
       <Stats />
     </div>
   );
