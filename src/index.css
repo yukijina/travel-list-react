@@ -57,11 +57,20 @@ h3 {
 button,
 select,
 input {
+  background-color: #ffebb3;
+  color: #5a3e2b;
+  font-family: inherit;
+  border: none;
+  border-radius: 10rem;
+  padding: 1.2rem 3.2rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  cursor: pointer;
 }
 
 .add-form button {
-  background-color: #ffebb3;
-  color: #5a3e2b;
+  background-color: #76c7ad;
+  text-transform: uppercase;
 }
 
 .list {
@@ -103,6 +112,9 @@ input {
 }
 
 inpit[type='checkbox'] {
+  height: 2rem;
+  width: 2rem;
+  accent-color: #e5771f;
 }
 
 .list li button {
@@ -115,4 +127,8 @@ inpit[type='checkbox'] {
 }
 
 .stats {
+  background-color: #76c7ad;
+  padding: 3.2rem 0;
+  text-align: center;
+  font-weight: 700;
 }
