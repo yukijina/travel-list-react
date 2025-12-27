@@ -4,7 +4,6 @@ import '../index.css';
 export default function Stats({ items }) {
   const numItems = items.length;
   const numPacked = items.filter((item) => item.packed).length;
-  console.log(numItems, numPacked);
   const percentage = Math.round((numPacked / numItems) * 100);
 
   if (!items.length) {
